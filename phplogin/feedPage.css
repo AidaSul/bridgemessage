@@ -1,0 +1,89 @@
+/*This is the message feed page*/
+
+.form-container {
+    max-width: auto;
+    max-height: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+
+/* the textbox */
+
+.form-container textarea {
+    width: 800px;
+    height: 200px;
+    float: left;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    font-size: 50px;
+}
+
+
+/* When the textarea gets focus, do something */
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container div.chat {
+    background-color: red;
+    outline: none;
+    font-size: 50px;
+}
+
+
+/* Set style for the send button */
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 150px;
+    height: 200px;
+    float: inline-end;
+}
+
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+.form-container #FeedBackButton {
+    background-color: #6495ED;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 150px;
+    height: 100px;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.form-container div.mylist {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 300px;
+    width: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    list-style-type: none;
+}
+
+.form-container div.li {
+    background: #cce5ff;
+    margin: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
