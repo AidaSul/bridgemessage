@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="feedFunctions.js"></script>
+        <title>Bridge Chat Test</title>
+    </head>
+    
+    <body class="loggedin">
+        <nav class="navtop">
+            <div>
+                <a href="home.php"><i class="fas fa-home"></i>Home</a>
+                <h1>Bridge Messenger</h1>
+                <a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
+                <a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+            </div>
+        </nav>
+        <div class="chat-window" id="myChat">
+            
+         <form action="" class="form-container">
+            <h1>Bridge Chat</h1>
+
+            <div id="chat" class="chat" style= "overflow-y: scroll; height:400px;">
+                <ul id ="myList"></ul>
+
+            </div>
+            
+            <label for="msg"><b>Messenger</b></label>
+            <textarea placeholder="Write a message.." id="msg" required></textarea>
+
+            <input type="button" class="btn" value = "Send" onclick = "display()">
+     
+            <button type = "button" id="FeedBackButton" onclick="window.location='frontPage.html';"> Back </button>
+            
+        </form>
+            
+        </div>
+        
+        
+    </body>
+</html>
