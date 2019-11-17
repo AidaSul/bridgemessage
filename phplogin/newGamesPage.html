@@ -6,7 +6,7 @@
 <button class="button backBtn" id="backBtn" onclick="window.location='gamesOptionsPage.html'">Back</button>
 
 <h1>Schedule a New Game</h1> <br>
-
+<form action="createNewGame2.php" method="post">
 <!Date for the bridge game as a dropdown menu>
 <span class="label date">Date:</span>
 <span class="label month">Month</span>
@@ -135,7 +135,8 @@
     <br><br>
 </div>
 
-<!Button to confirm what they've selected, and validates it>
-<button class="button createGameBtn" id="createGameBtn" onclick="checkIfGood()"> Create New Game</button> <br> <br>
 
+<!Button to confirm what they've selected, and validates it>
+<button class="button createGameBtn" id="createGameBtn" onclick="checkIfGood()" value="submit"> Create New Game</button> <br> <br>
+</form>
 </html>
