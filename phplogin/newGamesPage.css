@@ -7,7 +7,7 @@ button.backBtn {
     width: 150px;
     height: 100px;
     border-radius: 12px;
-    font-size: 30px;
+    font-size: 40px;
     border: 0px;
     background-color: lightskyblue;
     margin-top: 10px;
@@ -18,13 +18,12 @@ button.createGameBtn {
     width: 500px;
     height: 100px;
     border-radius: 12px;
-    font-size: 30px;
+    font-size: 40px;
     border: 0px;
     background: burlywood;
     text-align: center;
     display: block;
     margin: auto;
-    margin-top: 100px;
 }
 
 
@@ -38,7 +37,7 @@ button.createGameBtn {
 .month,
 .day,
 .year {
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -108,7 +107,7 @@ button.createGameBtn {
 }
 
 .boxLocation select {
-    background: rgb(0, 139, 219);
+    background: turquoise;
     color: black;
     width: 250px;
     height: 50px;
@@ -133,7 +132,7 @@ button.createGameBtn {
 }
 
 .boxHour select {
-    background: rgb(0, 139, 219);
+    background: plum;
     color: black;
     width: 250px;
     height: 50px;
@@ -149,7 +148,7 @@ button.createGameBtn {
 }
 
 .boxMinute select {
-    background: rgb(0, 139, 219);
+    background: pink;
     color: black;
     width: 250px;
     height: 50px;
@@ -165,7 +164,7 @@ button.createGameBtn {
 }
 
 .boxNoon select {
-    background: rgb(0, 139, 219);
+    background: yellow;
     color: black;
     width: 250px;
     height: 50px;
@@ -176,7 +175,21 @@ button.createGameBtn {
     margin-right: 20px;
 }
 
-.checkbox {
-    width: 10px;
-    height: 10px;
+.bringCards {
+    text-align: center;
+    font-size: 50px;
+}
+
+input[type='checkbox'] {
+    left: 20px;
+    -webkit-appearance: none;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #555;
+}
+
+input[type='checkbox']:checked {
+    background: red;
 }
