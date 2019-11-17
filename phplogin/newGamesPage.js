@@ -2,8 +2,6 @@
 
 function checkIfGood() {
 	
-	
-	
 	var day = document.getElementById("day").options[document.getElementById("day").selectedIndex].value;
 	var month = document.getElementById("month").options[document.getElementById("month").selectedIndex].value;
 	var d = document.getElementById("year").options[document.getElementById("year").selectedIndex].value;
@@ -14,12 +12,26 @@ function checkIfGood() {
     var loc = document.getElementById("location").options[document.getElementById("location").selectedIndex].value;
     var cardStatus = document.getElementById("cardStatus").checked;
 
-if(properDate())
-        alert("Time of game: " + hour + ":" + minute + " " + noon + "\n" +
-		"Date: " + month + " " + day + dateEnd() + " " + year + "\n" + 
-            "Location: " + loc + "\n" +
-            "You are " + responsibility() + "bringing the cards" + "\n");
-	else{
+	if (properDate()) {
+		if(month == "December" && day == "25"){
+			alert("Merry Christmas!\n" + 
+				"Bridge Game Information\n" +
+				"Time of game: " + hour + ":" + minute + " " + noon + "\n" +
+				"Date: " + month + " " + day + dateEnd() + " " + year + "\n" + 
+				"Location: " + loc + "\n" +
+				"You are " + responsibility() + "bringing the cards" + "\n");
+	
+		}
+		
+		else {
+			alert("Bridge Game Information\n" +
+				"Time of game: " + hour + ":" + minute + " " + noon + "\n" +
+				"Date: " + month + " " + day + dateEnd() + " " + year + "\n" + 
+				"Location: " + loc + "\n" +
+				"You are " + responsibility() + "bringing the cards" + "\n");
+		}
+	}
+	else {
 		alert("Invalid Date");
 	}
 
@@ -45,8 +57,7 @@ function dateEnd(){
 }
 
 function properYear(){
-	var a = new Date();
-	var b = a.getFullYear()
+	var b = new Date().getFullYear();
 	
 	if (d == "1")
 		return b;
