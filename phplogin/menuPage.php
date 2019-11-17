@@ -26,15 +26,15 @@ if (!isset($_SESSION['loggedin'])) {
     <nav class="navtop">
         <div>
             <h1>Bridge Messenger</h1>
-            <a href="profile.php"><button><i class="fas fa-user-circle"></i>Profile</button></a>
-            <a href="logout.php"><button><i class="fas fa-sign-out-alt"></i>Logout</button></a>
+            <a href="profile.php"><button class= "button profileBtn"><i class="fas fa-user-circle"></i>Profile</button></a>
+            <a href="logout.php"><button class = "button logoutBtn"><i class="fas fa-sign-out-alt"></i>Logout</button></a>
         </div>
     </nav>
     <div class="content">
         <h2>Welcome back,
             <?=$_SESSION['name']?>!</h2>
         <button class="button button1" id="GC Button" onclick="window.location='feedPage.html';"> Group Chat </button>
-        <button class="button button2" id="Games Button" onclick="window.location='currentGamesPage.html';"> Games </button>
+        <button class="button button2" id="Games Button" onclick="window.location='gamesOptionsPage.html';"> Games </button>
         <button class="button button3" id="Notif Button" onclick="window.location='notificationPage.html';"> Notifications
     </button>
     </div>
