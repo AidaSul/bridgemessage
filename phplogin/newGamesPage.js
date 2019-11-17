@@ -35,6 +35,8 @@ function checkIfGood() {
 		alert("Invalid Date");
 	}
 
+//window.location="joinNewGame.html";
+
 function responsibility() {
         if (cardStatus) {
             return "";
@@ -90,6 +92,5 @@ function isLeapYear(){
 		return false;
 	else
 		return true;
-
 }
 }
