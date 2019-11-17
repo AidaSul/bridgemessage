@@ -1,0 +1,182 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+button.backBtn {
+    width: 150px;
+    height: 100px;
+    border-radius: 12px;
+    font-size: 30px;
+    border: 0px;
+    background-color: lightskyblue;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+button.createGameBtn {
+    width: 500px;
+    height: 100px;
+    border-radius: 12px;
+    font-size: 30px;
+    border: 0px;
+    background: burlywood;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+/*format the date selections*/
+
+.date {
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.month,
+.day,
+.year {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* making the dropdown menus customized for the date*/
+
+.boxMonth {
+    display: inline-block;
+}
+
+.boxMonth select {
+    background: orange;
+    color: black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    margin-right: 20px;
+}
+
+.boxDay {
+    display: inline-block;
+}
+
+.boxDay select {
+    background: rgb(53, 177, 53);
+    color: black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    margin-right: 20px;
+}
+
+.boxYear {
+    display: inline-block;
+}
+
+.boxYear select {
+    background: rgb(0, 139, 219);
+    color: black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+
+/*format the Location selection*/
+
+.location {
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.boxLocation {
+    display: inline;
+}
+
+.boxLocation select {
+    background: rgb(0, 139, 219);
+    color: black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+
+/*format the time selection*/
+
+.time {
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.boxHour {
+    display: inline;
+}
+
+.boxHour select {
+    background: rgb(0, 139, 219);
+    color: black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    margin-right: 20px;
+}
+
+.boxMinute {
+    display: inline;
+}
+
+.boxMinute select {
+    background: rgb(0, 139, 219);
+    color: black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    margin-right: 20px;
+}
+
+.boxNoon {
+    display: inline;
+}
+
+.boxNoon select {
+    background: rgb(0, 139, 219);
+    color: black;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    margin-right: 20px;
+}
+
+.checkbox {
+    width: 10px;
+    height: 10px;
+}

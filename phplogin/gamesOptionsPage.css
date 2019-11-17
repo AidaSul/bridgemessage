@@ -1,0 +1,61 @@
+.split {
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.top {
+    top: 0;
+    background-color: rgb(255, 255, 180);
+}
+
+.bottom {
+    bottom: 0;
+    background-color: rgb(195, 195, 255);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 200px;
+    border: 0px;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+.backBtn {
+    width: 150px;
+    height: 100px;
+    border-radius: 12px;
+    font-size: 30px;
+    border: 0px;
+    background-color: orange;
+    float: left;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.topBtn {
+    background-color: rgb(200, 255, 255);
+}
+
+.bottomBtn {
+    background-color: rgb(151, 255, 151);
+}

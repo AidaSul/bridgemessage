@@ -1,17 +1,3 @@
-<?php
-// We need to use sessions, so you should always start sessions using the below code.
-session_start();
-// If the user is not logged in redirect to the login page...
-if (!isset($_SESSION['loggedin'])) {
-	header('Location: index.html');
-	exit();
-
-
-}
-
-
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -26,8 +12,8 @@ if (!isset($_SESSION['loggedin'])) {
     <nav class="navtop">
         <div>
             <h1>Bridge Messenger</h1>
-            <a href="profile.php"><button><i class="fas fa-user-circle"></i>Profile</button></a>
-            <a href="logout.php"><button><i class="fas fa-sign-out-alt"></i>Logout</button></a>
+            <a href="profile.php"><button class= "button profileBtn"><i class="fas fa-user-circle"></i>Profile</button></a>
+            <a href="logout.php"><button class = "button logoutBtn"><i class="fas fa-sign-out-alt"></i>Logout</button></a>
         </div>
     </nav>
     <div class="content">
@@ -41,4 +27,3 @@ if (!isset($_SESSION['loggedin'])) {
 </body>
 
 </html>
-
