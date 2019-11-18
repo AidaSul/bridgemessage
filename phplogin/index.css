@@ -1,4 +1,7 @@
-/* This is the login page */
+/* This is the css for index.html */
+
+
+/*The size of the page*/
 
 * {
     box-sizing: border-box;
@@ -8,9 +11,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+/*The settings for the background of the page*/
+
 body {
     background-color: #435165;
 }
+
+
+/*Settings for the box that will contain the login information*/
 
 .login {
     width: 800px;
@@ -20,6 +29,9 @@ body {
     margin: 10px auto;
 }
 
+
+/*The settings for the label in the box*/
+
 .login h1 {
     text-align: center;
     color: #5b6574;
@@ -27,6 +39,9 @@ body {
     padding: 20px 0 20px 0;
     border-bottom: 1px solid #dee0e4;
 }
+
+
+/*Settings for the contents within the box*/
 
 .login form {
     display: flex;
@@ -36,6 +51,9 @@ body {
     width: 800px;
     margin-left: 100px;
 }
+
+
+/*Settings for the labels for the textboxes*/
 
 .login form label {
     display: flex;
@@ -47,6 +65,9 @@ body {
     color: #ffffff;
 }
 
+
+/*Settings for the textboxes*/
+
 .login form input[type="password"],
 .login form input[type="text"] {
     width: 500px;
@@ -57,6 +78,9 @@ body {
     margin-right: 200px;
     font-size: 50px;
 }
+
+
+/*Settings for the submit button*/
 
 .login form input[type="submit"] {
     margin-right: 200px;
@@ -72,11 +96,17 @@ body {
     transition: background-color 0.2s;
 }
 
+
+/*More settings for the submit button*/
+
 .login form input[type="submit"]:hover {
     background-color: #2868c7;
     transition: background-color 0.2s;
     margin-bottom: 20px;
 }
+
+
+/*Settings for the paragraph*/
 
 .login p {
     margin-top: 50px;
@@ -84,6 +114,17 @@ body {
     font-size: 50px;
 }
 
+
+/*Settings for the hyperlink*/
+
 .login a {
     font-size: 50px;
+}
+
+
+/*Settings for the signup page*/
+
+.login button.signupBtn {
+    border: none;
+    background: none;
 }

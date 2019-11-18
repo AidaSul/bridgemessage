@@ -1,4 +1,7 @@
-/*This is the message feed page*/
+/*This is the css for feedPage.html*/
+
+
+/*This sets the size of the actual page*/
 
 .form-container {
     width: 1300px;
@@ -8,7 +11,50 @@
 }
 
 
-/* the textbox */
+/*These are the css for the buttons on the top of the page*/
+
+
+/*The home button*/
+
+button.homeBtn {
+    width: 150px;
+    height: 100px;
+    font-size: 30px;
+    border: none;
+    border-radius: 12px;
+    display: inline-block;
+    margin-left: 10%;
+    background-color: aqua;
+}
+
+
+/*The profile button*/
+
+button.profileBtn {
+    width: 150px;
+    height: 100px;
+    font-size: 30px;
+    border: none;
+    border-radius: 12px;
+    display: inline-block;
+    background-color: lightskyblue;
+}
+
+
+/*The logout button*/
+
+button.logoutBtn {
+    width: 150px;
+    height: 100px;
+    font-size: 30px;
+    border: none;
+    border-radius: 12px;
+    display: inline-block;
+    background-color: deepskyblue;
+}
+
+
+/*THis is the css for the textbox where the users write their messages*/
 
 .form-container textarea {
     width: 1096px;
@@ -29,6 +75,9 @@
     outline: none;
 }
 
+
+/*This is the textbox where the messages get displayed when sent from the message textbox*/
+
 .form-container div.chat {
     background-color: beige;
     outline: none;
@@ -37,7 +86,7 @@
 }
 
 
-/* Set style for the send button */
+/*This is the style for the send button */
 
 .form-container .btn {
     background-color: #4CAF50;
@@ -52,12 +101,15 @@
 }
 
 
-/* Add some hover effects to buttons */
+/* Add some hover effects to the button*/
 
 .form-container .btn:hover,
 .open-button:hover {
     opacity: 1;
 }
+
+
+/*Settiings for the chat box*/
 
 .form-container div.mylist {
     overflow: hidden;
@@ -76,6 +128,9 @@
     padding: 10px;
     display: inline-block;
 }
+
+
+/*Settings for the top row buttons*/
 
 a {
     display: inline;

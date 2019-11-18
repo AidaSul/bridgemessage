@@ -1,4 +1,7 @@
-/*This is the menu page*/
+/*This is the css for menuPage.html*/
+
+
+/*The top bar settings*/
 
 .navtop {
     background-color: #2f3947;
@@ -7,11 +10,17 @@
     border: 0;
 }
 
+
+/*More top bar settings*/
+
 .navtop div {
     display: flex;
     width: 100%;
     height: 100%;
 }
+
+
+/*The top bar title settings*/
 
 .navtop div h1 {
     flex: 1;
@@ -25,6 +34,9 @@
     margin-inline-start: 20px;
 }
 
+
+/*Profile button settings*/
+
 .navtop div a button.profileBtn {
     width: 200px;
     height: 50px;
@@ -35,6 +47,9 @@
     font-size: 40px;
 }
 
+
+/*Logout button settings*/
+
 .navtop div a button.logoutBtn {
     width: 200px;
     height: 50px;
@@ -44,6 +59,9 @@
     border-radius: 12px;
     font-size: 40px;
 }
+
+
+/*more top bar settings*/
 
 .navtop div a i {
     padding: 2px 8px 0 0;
@@ -57,10 +75,16 @@ body.loggedin {
     background-color: #f3f4f7;
 }
 
+
+/*The body of the page settings*/
+
 .content {
     width: 1000px;
     margin: 0 auto;
 }
+
+
+/*The second title settings*/
 
 .content h2 {
     margin: 0;
@@ -96,6 +120,9 @@ body.loggedin {
     margin: 0 0 10px 0;
 }
 
+
+/*General buttons in the body of the page settings*/
+
 .content>button {
     border: none;
     color: black;
@@ -112,15 +139,24 @@ body.loggedin {
     font-family: Georgia, serif;
 }
 
+
+/*Group chat button settings*/
+
 .content>button.button1 {
     background-color: #2f3947;
     color: #eaebed;
 }
 
+
+/*Games button settings*/
+
 .content>button.button2 {
     background-color: #2f3947;
     color: #eaebed;
 }
+
+
+/*Notification button settings*/
 
 .content>button.button3 {
     background-color: #2f3947;

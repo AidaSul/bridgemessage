@@ -1,4 +1,7 @@
-/*This is the registration page*/
+/*This is the css for registrationPage.html*/
+
+
+/*The size of the page*/
 
 * {
     box-sizing: border-box;
@@ -8,10 +11,16 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+/*The settings for the background of the page*/
+
 body {
     background-color: #435165;
     margin: 0;
 }
+
+
+/*Settings for the box that will contain the registration information*/
 
 .register {
     width: 800px;
@@ -21,6 +30,9 @@ body {
     margin: 10px auto;
 }
 
+
+/*The settings for the label in the box*/
+
 .register h1 {
     text-align: center;
     color: #5b6574;
@@ -28,6 +40,9 @@ body {
     padding: 20px 0 20px 0;
     border-bottom: 1px solid #dee0e4;
 }
+
+
+/*Settings for the contents within the box*/
 
 .register form {
     display: flex;
@@ -38,6 +53,9 @@ body {
     margin-left: 100px;
 }
 
+
+/*Settings for the labels for the textboxes*/
+
 .register form label {
     display: flex;
     justify-content: center;
@@ -47,6 +65,9 @@ body {
     background-color: #3274d6;
     color: #ffffff;
 }
+
+
+/*Settings for the textboxes*/
 
 .register form input[type="password"],
 .register form input[type="text"],
@@ -59,6 +80,9 @@ body {
     margin-right: 200px;
     font-size: 50px;
 }
+
+
+/*Settings for the submit button*/
 
 .register form input[type="submit"] {
     margin-right: 200px;
@@ -73,6 +97,9 @@ body {
     color: #ffffff;
     transition: background-color 0.2s;
 }
+
+
+/*More settings for the submit button*/
 
 .register form input[type="submit"]:hover {
     background-color: #2868c7;

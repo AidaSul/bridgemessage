@@ -4,45 +4,47 @@
 
 <head>
     <meta charset="utf-8">
+    <!This is the link to the css page for this HTML page>
     <link href="feedPage.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="feedPage.css">
     <script type="text/javascript" src="feedFunctions.js"></script>
+    <!The title of the page>
     <title>Bridge Chat</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
+<!The body of the page which has different sections>
+
 <body class="loggedin">
+    <!This is the top of the page>
     <nav class="navtop">
         <div>
-            <a href="menuPage.php"><i class="fas fa-home fa-3x"></i> <font size ="10">Home</font></a>
-            <a href="profile.php"><i class="fas fa-user-circle fa-3x"></i>
-                <font size="10">Profile</font>
-            </a>
-            <a href="logout.php"><i class="fas fa-sign-out-alt fa-3x"></i>
-                <font size="10">Logout</font>
-            </a>
+            <!These are the buttons on the top row which take the user to different pages when clicked on>
+            <a href="menuPage.php"><button class="button homeBtn"><i class="fas fa-home"></i>Home</button></a>
+            <a href="profile.php"><button class="button profileBtn"><i class="fas fa-user-circle"></i>Profile</button></a>
+            <a href="logout.php"><button class="button logoutBtn"><i class="fas fa-sign-out-alt"></i>Logout</button></a>
         </div>
     </nav>
-    <div class="chat-window" id="myChat">
 
+    <!This part of the page deals with the chat box and message box>
+    <div class="chat-window" id="myChat">
         <form action="" class="form-container">
+            <!This is the title of the page which actually appears in the page>
             <h1 style="text-align: center;">
                 <font size="20">Bridge Chat</font>
             </h1>
-
+            <!This is the box where messages are typed>
             <div id="chat" class="chat" style="overflow-y: scroll; height:400px;">
                 <ul id="myList"></ul>
-
             </div>
+            <!This is what appears before a message is typed>
             <textarea placeholder="Write a message.." id="msg" required maxlength="255"></textarea>
-
+            <!This button sends the >
             <input type="button" class="btn" value="Send" onclick="display()">
 
         </form>
 
     </div>
-
 
 </body>
 

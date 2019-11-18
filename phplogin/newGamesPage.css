@@ -1,7 +1,15 @@
+/*This is the css for newGamesPage.html*/
+
+
+/*Settings for the title*/
+
 h1 {
     text-align: center;
     font-size: 50px;
 }
+
+
+/*Settings for the back button*/
 
 button.backBtn {
     width: 150px;
@@ -13,6 +21,9 @@ button.backBtn {
     margin-top: 10px;
     margin-left: 15px;
 }
+
+
+/*Settings for the create game button*/
 
 button.createGameBtn {
     width: 500px;
@@ -29,10 +40,16 @@ button.createGameBtn {
 
 /*format the date selections*/
 
+
+/*Date label settings*/
+
 .date {
     font-size: 40px;
     margin-right: 40px;
 }
+
+
+/*month, day, and year label settings*/
 
 .month,
 .day,
@@ -45,9 +62,15 @@ button.createGameBtn {
 
 /* making the dropdown menus customized for the date*/
 
+
+/*Month dropdown settings*/
+
 .boxMonth {
     display: inline-block;
 }
+
+
+/*More month dropdown settings*/
 
 .boxMonth select {
     background: orange;
@@ -61,9 +84,15 @@ button.createGameBtn {
     margin-right: 20px;
 }
 
+
+/*Day of the month dropdown settings*/
+
 .boxDay {
     display: inline-block;
 }
+
+
+/*More day of the month dropdown settings*/
 
 .boxDay select {
     background: rgb(53, 177, 53);
@@ -77,9 +106,15 @@ button.createGameBtn {
     margin-right: 20px;
 }
 
+
+/*Year dropdown settings*/
+
 .boxYear {
     display: inline-block;
 }
+
+
+/*More year dropdown settings*/
 
 .boxYear select {
     background: rgb(0, 139, 219);
@@ -95,6 +130,9 @@ button.createGameBtn {
 
 /*format the Location selection*/
 
+
+/*Location label settings*/
+
 .location {
     margin-top: 30px;
     font-size: 40px;
@@ -102,9 +140,15 @@ button.createGameBtn {
     margin-right: 40px;
 }
 
+
+/*Location dropdown settings*/
+
 .boxLocation {
     display: inline;
 }
+
+
+/*More location dropdown settings*/
 
 .boxLocation select {
     background: turquoise;
@@ -120,6 +164,9 @@ button.createGameBtn {
 
 /*format the time selection*/
 
+
+/*Time label settings*/
+
 .time {
     margin-top: 30px;
     font-size: 40px;
@@ -127,9 +174,15 @@ button.createGameBtn {
     margin-right: 40px;
 }
 
+
+/*Hour dropdown settings*/
+
 .boxHour {
     display: inline;
 }
+
+
+/*More Hour dropdown settings*/
 
 .boxHour select {
     background: plum;
@@ -143,9 +196,15 @@ button.createGameBtn {
     margin-right: 20px;
 }
 
+
+/*Minute dropdown settings*/
+
 .boxMinute {
     display: inline;
 }
+
+
+/*More Minute dropdown settings*/
 
 .boxMinute select {
     background: pink;
@@ -159,9 +218,15 @@ button.createGameBtn {
     margin-right: 20px;
 }
 
+
+/*Time of day dropdown settings*/
+
 .boxNoon {
     display: inline;
 }
+
+
+/*More Time of day dropdown settings*/
 
 .boxNoon select {
     background: yellow;
@@ -175,10 +240,16 @@ button.createGameBtn {
     margin-right: 20px;
 }
 
+
+/*Bringing cards label settings*/
+
 .bringCards {
     text-align: center;
     font-size: 50px;
 }
+
+
+/*The checkbox settings*/
 
 input[type='checkbox'] {
     left: 20px;
@@ -189,6 +260,9 @@ input[type='checkbox'] {
     border-radius: 5px;
     border: 2px solid #555;
 }
+
+
+/*After the box is checked settings*/
 
 input[type='checkbox']:checked {
     background: red;
