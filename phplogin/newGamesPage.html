@@ -9,7 +9,7 @@
 
 <!This is the title for this page>
 <h1>Schedule a New Game</h1> <br>
-
+<form action="createNewGame2.php" method="post">
 <!Date for the bridge game as a dropdown menu>
 <!This is the label for the date dropdown menus>
 <span class="label date">Date:</span>
@@ -145,13 +145,14 @@
 </div>
 <br><br><br>
 
-<!Check box for bringing the card>
+<Check box for bringing the card>
 <div class="bringCards">
     I Can Bringing a Deck of Cards <input type="checkbox" name="bringingCards" id="cardStatus">
     <br><br>
 </div>
 
-<!Button to confirm what they've selected, and validates it>
-<button class="button createGameBtn" id="createGameBtn" onclick="checkIfGood()"> Create New Game</button> <br> <br>
 
+<!Button to confirm what they've selected, and validates it>
+<button class="button createGameBtn" id="createGameBtn" onclick="checkIfGood()" value="submit"> Create New Game</button> <br> <br>
+</form>
 </html>
