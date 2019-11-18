@@ -16,6 +16,7 @@ function checkIfGood() {
 
 	//Makes sure the date is proper, and then echos back the info to the user
 	if (properDate()) {
+			window.location  = 'joinNewGame.html';
 			alert(xmas() + //:)
 				"Bridge Game Information\n" +
 				"Time of game: " + hour + ":" + minute + " " + noon + "\n" +
@@ -24,7 +25,8 @@ function checkIfGood() {
 				"You are " + responsibility() + "bringing the cards" + "\n");
 				
 				//Opens window where the info they added will be stored and viewable
-				window.location="joinNewGame.html";
+				
+				
 	}
 	//If the date is invalid, doesn't let the user continue
 	else {
