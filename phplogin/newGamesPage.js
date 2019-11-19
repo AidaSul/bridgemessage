@@ -1,4 +1,8 @@
-
+/*
+This file authentics and echos to the user what values they have entered. It is also here where
+the user can input when, and where they want to schedule a game of bridge, and whether or not they
+are brining a deck of cards.
+*/
 
 function checkIfGood() {
 	
