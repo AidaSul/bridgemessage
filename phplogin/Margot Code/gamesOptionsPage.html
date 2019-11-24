@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This is the css page that is linked to this HTML page-->
+    <link href="gamesOptionsPage.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+    <!--This is the top half of this page-->
+    <div class="split top">
+
+        <!--This button takes the user back to the previous page they were on-->
+        <div class="topLeftButton">
+            <button class="button backBtn" id="backBtn" onclick="goBack()">Back</button>
+        </div>
+        <!--center the button (found in the css page)-->
+        <div class="centered">
+            <!--This button takes the user to the newGamesPage page-->
+            <button class="button topBtn" onClick="window.location='newGamesPage.html'">Create New Game</button>
+        </div>
+    </div>
+    <!--This is the bottom half of this page-->
+    <div class="split bottom">
+        <!--center the button (found in the css page)-->
+        <div class="centered">
+            <!--This button takes the user to the joinNewGame page-->
+            <button class="button bottomBtn" onClick="window.location='joinNewGame.html'">Join Current Game</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

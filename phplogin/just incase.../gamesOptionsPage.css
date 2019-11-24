@@ -1,0 +1,95 @@
+/*This is the css for gamesOptionPage.html*/
+
+
+/*Split the page horizontaly in half*/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 0 0 0;
+}
+
+.split {
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 0;
+}
+
+
+/*Settings for the top half of the page*/
+
+.top {
+    top: 0;
+    background-color: rgb(255, 255, 180);
+}
+
+
+/*settings for the bottom half of the page*/
+
+.bottom {
+    bottom: 0;
+    background-color: rgb(195, 195, 255);
+}
+
+
+/*Center the buttons*/
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*General button settings*/
+
+button {
+    width: 300px;
+    height: 200px;
+    border: 0px;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+
+/*Back button settings*/
+
+.topLeftButton {
+    position: absolute;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.backBtn {
+    width: 150px;
+    height: 100px;
+    border-radius: 12px;
+    font-size: 30px;
+    border: 0px;
+    background-color: orange;
+    float: left;
+}
+
+
+/*Settings to get the back button on the top left side of the page*/
+
+
+/*Settings for the button on the top half of the page*/
+
+.topBtn {
+    background-color: rgb(200, 255, 255);
+}
+
+
+/*Settings for the button on the bottom half of the page*/
+
+.bottomBtn {
+    background-color: rgb(151, 255, 151);
+}
