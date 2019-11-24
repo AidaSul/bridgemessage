@@ -18,12 +18,18 @@
 
 <body>
     <div class="aGame">
-        <button class="button deleteGameBtn" onclick="var result = confirm('Want to delete?')">Delete Game</button>
-        <span class="label gameNum"><center>Game</center></span>
-        <span class="label gameLocation"><center>Location: </center></span>
-        <span class="label gameDate"><center>Date: </center></span>
-        <span class="label gameTime"><center>Time: </center></span><br><br><br>
+        <button id="deleteGameBtn" onclick="var result = confirm('Want to delete?')">Delete Game</button>
+
+        <span class="label gameNum"><center>Game</center></span><br>
+        <span class="label gameLocation">Location: </span><br>
+        <span class="label gameDate">Date: </span><br>
+        <span class="label gameTime">Time: </span><br>
+        <span class="label gameCards">Person(s) Bringing Cards: </span><br><br><br>
+
         <table>
+            <button class="button joinGameBtn">Join Game</button><br>
+            <button class="button addYvonneBtn">Add Yvonne</button>
+
             <tr>
                 <th>Players Currently in Game</th>
             </tr>
@@ -60,8 +66,7 @@
                 <td>Celine</td>
             </tr>
         </table> <br><br><br>
-        <button class="button joinGameBtn">Join Game</button>
-        <button class="button addYvonneBtn">Add Yvonne</button>
+
     </div>
 </body>
 

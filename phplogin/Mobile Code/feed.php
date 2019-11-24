@@ -2,12 +2,11 @@
 <html>
 <head>
    <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css">
-   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
   
         <script src="scripts/jquery-1.8.3.min.js"></script>
         <script src="scripts/chromeFileProtocolFix.js"></script>
         <script src="scripts/jquery.mobile-1.3.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
           
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,10 +16,10 @@
 <body class="loggedin">
 <nav class="navtop">
             <div>
-                <a href="home.php"><i class="fas fa-home"></i>Home</a>
+                <a href="menuPage.php"><i class="fas fa-home"></i>Home</a>
                 <h1>Bridge Messenger</h1>
                 <a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
-                <a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                <a href="logoutPage.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
             </div>
         </nav>
     <div class="chat-window" id="myChat">

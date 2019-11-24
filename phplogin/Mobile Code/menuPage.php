@@ -33,7 +33,7 @@ if (!isset($_SESSION['loggedin'])) {
             <!This button takes the user to the profile page>
             <a href="profile.php"><button class= "button profileBtn"><i class="fas fa-user-circle"></i>Profile</button></a>
             <!This button logs the user out of the app>
-            <a href="logout.php"><button class = "button logoutBtn"><i class="fas fa-sign-out-alt"></i>Logout</button></a>
+            <a href="logoutPage.php"><button class = "button logoutBtn"><i class="fas fa-sign-out-alt"></i>Logout</button></a>
         </div>
     </nav>
     <!The part of the page that deals with the rest of the page>
@@ -42,7 +42,7 @@ if (!isset($_SESSION['loggedin'])) {
         <h2>Welcome back,
             <?=$_SESSION['name']?>!</h2>
         <!This button takes the user to the group chat's feed page>
-        <button class="button button1" id="GC Button" onclick="window.location='feedPage.html';"> Group Chat </button>
+        <button class="button button1" id="GC Button" onclick="window.location='feed.php';"> Group Chat </button>
         <!This button takes the user to the options page where the user can choose if they want to create a new game or see existing games>
         <button class="button button2" id="Games Button" onclick="window.location='gamesOptionsPage.html';"> Games </button>
         <!This button takes the user to the notification page so the user and select the tyoe of alerts they want>

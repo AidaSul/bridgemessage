@@ -94,6 +94,7 @@ body {
     color: #ffffff;
     font-size: 100px;
     transition: background-color 0.2s;
+    -webkit-appearance: none;
 }
 
 
@@ -124,4 +125,5 @@ body {
     background: none;
     margin-left: 30px;
     color: black;
+    -webkit-appearance: none;
 }

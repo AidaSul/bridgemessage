@@ -20,7 +20,7 @@ session_destroy();
 <body>
 <h1>You have been logged out</h1>
 <h2>Want to log back in? Click here: </h2>
-<button class="button login">Login</button>
+<button class="button login" onclick="window.location='index.html';">Login</button>
 </body>
 
 </html>
