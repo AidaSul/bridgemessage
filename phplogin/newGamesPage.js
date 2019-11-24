@@ -35,6 +35,8 @@ function checkIfGood() {
 	//If the date is invalid, doesn't let the user continue
 	else {
 		alert("Invalid Date");
+		location.reload();
+		
 	}
 
 //Checks to see if the user is going to bring the cards
