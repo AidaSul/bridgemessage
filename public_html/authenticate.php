@@ -1,7 +1,9 @@
 <?php
 /**
     Author : Aida Sultan(A00432414)
+    Edited by Rebecca Herritt 
     * This is where the code checks whether all the information inserted to login is correct.
+
 */
 session_start();
 // This is where your server information goes
