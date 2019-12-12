@@ -1,5 +1,10 @@
 /**
    Author: Patrick Melanson (A00420577)
+   This page is used to echo an alert to the user of what game they've scheduled,
+   along with the date, time, location, and card situation.
+   Furthermore, it ought to check if the game they entered was "legal", in the sense that
+   we don't want anyone scheduling a game on February 31st, for example. This, however, did
+   not happen, as other things became a priority.
 */
 
 function checkIfGood() {
@@ -9,7 +14,7 @@ function checkIfGood() {
 	var day = document.getElementById("day").options[document.getElementById("day").selectedIndex].value;
 	var month = document.getElementById("month").options[document.getElementById("month").selectedIndex].value;
 	var d = document.getElementById("year").options[document.getElementById("year").selectedIndex].value; //This is a lot to write
-	var year = properYear();
+	var year = properYear(); //Formats the year properly
     var hour = document.getElementById("hour").options[document.getElementById("hour").selectedIndex].value;
 	var minute = document.getElementById("minute").options[document.getElementById("minute").selectedIndex].value;
 	var noon = document.getElementById("noon").options[document.getElementById("noon").selectedIndex].value;
@@ -33,6 +38,8 @@ function checkIfGood() {
 	//If the date is invalid, doesn't let the user continue
 	else {
 		alert("Invalid Date");
+		location.reload();
+		
 	}
 
 //Checks to see if the user is going to bring the cards
@@ -60,15 +67,20 @@ function dateEnd(){
 function properYear(){
 	var b = new Date().getFullYear();
 	
+	//If they choose the current year, adds nothing
 	if (d == "1")
 		return b;
 	
+	//If they choose the next year, add 1 to the current year
 	else if (d == "2")
 		return ++b;
 
+	//If they choose two years from now, add 2 to the current year
 	else
 		b = b + 2;
 		return b;
+		
+	//As you can see, this is pretty easy to scale, though a little cumbersome
 }
 
 //Function that actually checks if the date is legal (ie isn't February 30th)
@@ -80,10 +92,12 @@ function properDate(){
 		return true;
 }
 
-//... I hate leap years
+//Check if the year is a leap year
 function isLeapYear(){
+	//Get the numerical value of the current year
 	var y = parseInt(year);
 
+	//Leap year rules
 	if (y%4 != 0)
 		return false;
 	else if (y%100 != 0)
@@ -94,7 +108,8 @@ function isLeapYear(){
 		return true;
 }
 
-// :)
+//Just feeling a little festive, if you delete this, just delete the xmas function from the alert box (line 22 if nothings been changed)
+//Only cosmetic, doesn't affect anything
 function xmas(){
 		if(month == "December" && day == "25")
 			return "Merry Christmas!\n";
